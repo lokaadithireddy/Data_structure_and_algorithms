@@ -1,0 +1,109 @@
+Run time analysis (Worst-Case Big-O Notation) for each solution.
+
+
+Task0:
+
+Time complexity: O(1) 
+Space complexity : O(1)
+
+As there is an index operation and no loops, it is of constant time.
+
+
+Task1:
+
+Time complexity: O(n)
+Space complexity: O(n)
+
+For texts,
+There is nested for loop : O(2)*O(n) = O(2n)
+which is simplified as O(n)
+
+For calls,
+There is nested for loop : O(2)*O(n) = O(2n)
+which is simplified as O(n)
+
+Total time complexity would be O(n)+O(n) = 2*O(n) which is O(n)
+
+Used dictionary to store unique keys which is why space complexity is O(n)
+
+
+Task2:
+
+Time complexity: O(n)
+Space complexity: O(n)
+
+For calls,
+There is nested for loop : O(2)*O(n) = O(2n)
+which is simplified as O(n)
+
+Another for loop for finding maximum value which is of linear order i.e O(n)
+
+Total time complexity would be O(n)+O(n) = 2*O(n) which is O(n)
+
+Used dictionary to store unique keys which is why space complexity is O(n) 
+O(1) for maxim and tele. It is constant because same memory location is being updated. 
+Final space: O(n) + O(1) + O(1) = O(n)
+
+
+Task3:
+
+Time complexity: O(n)
+Space complexity: O(n)
+
+First for loop for storing bangalore codes in bang dictionary which takes linear time O(n) and linear space O(n).
+
+Second for loop for storing different area codes for different formats which takes linear time O(n) and linear space O(n).
+
+Used set(list) which is linear time O(n) and stored in li list which linear space O(n)
+
+Sorted time complexity O(nlogn)
+
+printing each value in new line, so another for loop O(n)
+
+Last for loop finds count in order to do percentage task. Time is linear O(n) and Space(c,tot_c,vall) is constant O(1) 
+
+Total time complexity would be 5*O(n) which is simplied to O(nlogn)
+
+
+
+Task4:
+
+Time complexity: O(n)
+Space complexity: O(n)
+
+For texts,
+There is nested for loop : O(2)*O(n) = O(2n)
+which is simplified as O(n)
+
+For calls,
+There is single for loop : O(n)
+
+Third for loop for checking if key exist or not in dictionary. Time and Space is linear: O(n)
+
+set(list) time complexity is O(n)
+
+sorted(list) time complexity O(nlogn)
+
+Last for loop printing each value in new line O(n)
+
+Total time complexity would be 5*O(n) which is simplied to O(nlogn)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
